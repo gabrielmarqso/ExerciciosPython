@@ -1,0 +1,5 @@
+n = input('Digite algo')
+print (type(n))
+print('Todas letras estão maísculas: {}'.format(n.isupper()))
+print ('É numérico : {} '.format(n.isnumeric()))
+print('Todas letras estão minusculas: {}'.format(n.islower()))
